@@ -15,7 +15,6 @@ void intersection(int arr1[], int arr2[], int size1, int size2){
 int main(){
     int arr1[5] = {1,2,3,4,5};
     int arr2[5] = {3,4,7,8,1};
-h
     intersection(arr1,arr2,5,5);
     return 0;
 }

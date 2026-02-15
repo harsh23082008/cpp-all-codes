@@ -20,6 +20,9 @@ void swapmaxmin(int arr[], int size){
 
 int main(){
     int arr[5] = {4,2,9,1,6};
+    for(int i =0 ;i<5;i++){
+        cout<<arr[i]<<" "<<endl;
+    }
     swapmaxmin(arr,5);
 
     for(int i=0;i<5;i++){

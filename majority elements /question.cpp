@@ -3,17 +3,21 @@ using namespace std;
 
 void uniquevalues(int arr[], int size){
     for(int i = 0; i < size; i++){
-        int count = 0;
+        int count = IntMin;
 
         for(int j = 0; j < size; j++){
+            int xcount = 0 ;
+
             if(arr[i] == arr[j]){
                 count++;
             }
+            count = max(xcount,count);
+            cout<<arr[i];
         }
+        
 
-        if(count == 1){
-            cout<<arr[i]<<" ";
-        }
+
+
     }
 }
 
